@@ -20,11 +20,8 @@
   },
   "source_files": "PodDemo/Classes/**/*",
   "dependencies": {
-    "WFFoundation": [
-
-    ],
-    "WFUIKit": [
-
+    "AFNetworking": [
+      "~> 2.3"
     ]
   }
 }

@@ -1,6 +1,0 @@
-framework module WFFoundation {
-  umbrella header "WFFoundation-umbrella.h"
-
-  export *
-  module * { export * }
-}

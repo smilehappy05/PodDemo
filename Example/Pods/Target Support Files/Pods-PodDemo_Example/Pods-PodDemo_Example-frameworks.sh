@@ -102,16 +102,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WFFoundation/WFFoundation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WFUIKit/WFUIKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WFFoundation/WFFoundation.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WFUIKit/WFUIKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,6 +1,5 @@
 use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
-source 'http://stash.weimob.com/scm/fas/wfspecs.git'
 
 target 'PodDemo_Example' do
   pod 'PodDemo', :path => '../'

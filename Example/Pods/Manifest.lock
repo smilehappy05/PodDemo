@@ -1,43 +1,27 @@
 PODS:
-  - CocoaLumberjack (3.3.0):
-    - CocoaLumberjack/Default (= 3.3.0)
-    - CocoaLumberjack/Extensions (= 3.3.0)
-  - CocoaLumberjack/Default (3.3.0)
-  - CocoaLumberjack/Extensions (3.3.0):
-    - CocoaLumberjack/Default
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - PodDemo (0.1.0):
-    - WFFoundation
-    - WFUIKit
-  - WFFoundation (0.0.38):
-    - WFFoundation/Core (= 0.0.38)
-  - WFFoundation/Addition (0.0.38)
-  - WFFoundation/Core (0.0.38):
-    - WFFoundation/Addition
-    - WFFoundation/Logger
-    - WFFoundation/Utility
-    - WFFoundation/YYModel
-  - WFFoundation/Logger (0.0.38):
-    - CocoaLumberjack (>= 3.2.0)
-  - WFFoundation/Utility (0.0.38):
-    - WFFoundation/YYModel
-  - WFFoundation/YYModel (0.0.38):
-    - YYModel
-  - WFUIKit (0.0.26):
-    - WFUIKit/Core (= 0.0.26)
-  - WFUIKit/Addition (0.0.26):
-    - WFFoundation
-    - WFUIKit/Config
-  - WFUIKit/Config (0.0.26):
-    - WFFoundation
-  - WFUIKit/Core (0.0.26):
-    - WFFoundation
-    - WFUIKit/Addition
-    - WFUIKit/Config
-    - WFUIKit/CoreComponents
-  - WFUIKit/CoreComponents (0.0.26):
-    - WFFoundation
-    - WFUIKit/Addition
-  - YYModel (1.0.4)
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - PodDemo (from `../`)
@@ -47,12 +31,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
-  PodDemo: 347a1399128de997d2b2adcdb53078ba90710c6b
-  WFFoundation: 6f78270317c12c84c201bed49ba9cd094ed2f31a
-  WFUIKit: 9b5577fc6e67d887cb52784f0f86fc0a26987db3
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  PodDemo: 829e6d3865cfe76e341dd101739f4cb48219cc55
 
-PODFILE CHECKSUM: 2d904d914bdf602522528665b4a8895ebea714ce
+PODFILE CHECKSUM: bf6fd0ad7b1367de661c731c87c92d85c77cf082
 
 COCOAPODS: 1.3.1
