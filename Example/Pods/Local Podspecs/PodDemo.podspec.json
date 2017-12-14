@@ -1,0 +1,30 @@
+{
+  "name": "PodDemo",
+  "version": "0.1.0",
+  "summary": "A short description of PodDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/smilehappy05/PodDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "smilehappy05": "ya.zhang@weimob.com"
+  },
+  "source": {
+    "git": "https://github.com/smilehappy05/PodDemo",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodDemo/Classes/**/*",
+  "dependencies": {
+    "WFFoundation": [
+
+    ],
+    "WFUIKit": [
+
+    ]
+  }
+}

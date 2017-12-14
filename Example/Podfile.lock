@@ -1,0 +1,58 @@
+PODS:
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - PodDemo (0.1.0):
+    - WFFoundation
+    - WFUIKit
+  - WFFoundation (0.0.38):
+    - WFFoundation/Core (= 0.0.38)
+  - WFFoundation/Addition (0.0.38)
+  - WFFoundation/Core (0.0.38):
+    - WFFoundation/Addition
+    - WFFoundation/Logger
+    - WFFoundation/Utility
+    - WFFoundation/YYModel
+  - WFFoundation/Logger (0.0.38):
+    - CocoaLumberjack (>= 3.2.0)
+  - WFFoundation/Utility (0.0.38):
+    - WFFoundation/YYModel
+  - WFFoundation/YYModel (0.0.38):
+    - YYModel
+  - WFUIKit (0.0.26):
+    - WFUIKit/Core (= 0.0.26)
+  - WFUIKit/Addition (0.0.26):
+    - WFFoundation
+    - WFUIKit/Config
+  - WFUIKit/Config (0.0.26):
+    - WFFoundation
+  - WFUIKit/Core (0.0.26):
+    - WFFoundation
+    - WFUIKit/Addition
+    - WFUIKit/Config
+    - WFUIKit/CoreComponents
+  - WFUIKit/CoreComponents (0.0.26):
+    - WFFoundation
+    - WFUIKit/Addition
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - PodDemo (from `../`)
+
+EXTERNAL SOURCES:
+  PodDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  PodDemo: 347a1399128de997d2b2adcdb53078ba90710c6b
+  WFFoundation: 6f78270317c12c84c201bed49ba9cd094ed2f31a
+  WFUIKit: 9b5577fc6e67d887cb52784f0f86fc0a26987db3
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 2d904d914bdf602522528665b4a8895ebea714ce
+
+COCOAPODS: 1.3.1
